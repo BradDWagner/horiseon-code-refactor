@@ -1,13 +1,16 @@
+/* Sets the general layout of the page  */
 * {
     box-sizing: border-box;
     padding: 0;
     margin: 0;
 }
 
+/* Sets background color of the body  */
 body {
     background-color: #d9dcd6;
 }
 
+/* Creates 'header' layout */
 .header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -15,15 +18,18 @@ body {
     color: #ffffff;
 }
 
+/* Sets layout and font size for 'Horiseon' logo  */
 .header h1 {
     display: inline-block;
     font-size: 48px;
 }
 
+/* Changes color of 'seo' in the 'Horiseion' logo  */
 #seo {
     color: #d9dcd6;
 }
 
+/* Sets layout and font syling for nav bar  */
 nav {
     padding-top: 15px;
     margin-right: 20px;
@@ -32,15 +38,18 @@ nav {
     font-size: 20px;
 }
 
+/* Removes bullet point from list  */
 nav ul {
     list-style-type: none;
 }
 
+/* Sets layout of nav links  */
 nav ul li {
     display: inline-block;
     margin-left: 25px;
 }
 
+/* Sets color of links and removes underline  */
 a {
     color: #ffffff;
     text-decoration: none;
@@ -52,12 +61,14 @@ a {
     margin-bottom: 25px;
 }
 
+/* Sets layout for 'content' side of page  */
 .content {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
 }
 
+/* Sets layout and font of each 'content' block  */
 .content-box {
     margin-bottom: 20px;
     padding: 50px;
@@ -67,31 +78,33 @@ a {
     color: #ffffff;
 }
 
-
+/* Determine positioning of images within 'content' blocks  */
 .float-left {
     float: left;
     margin-right: 25px;
 }
-
 .float-right {
     float: right;
     margin-left: 25px;
 }
 
+/* Sets hight of 'content' images  */
 .content-image {
     max-height: 200px;
 }
 
-
+/* Sets font size and establishes bottom margin for 'content' box headings  */
 .content h2 {
     margin-bottom: 20px;
     font-size: 36px;
 }
 
+/* Sets font size for 'content' box paragraphs  */
 p {
     font-size: 16px;
 }
 
+/* Establishes 'benefits' side bar  */
 .benefits {
     margin-right: 20px;
     padding: 20px;
@@ -103,24 +116,26 @@ p {
     background-color: #2589bd;
 }
 
+/* Sets layout for each "benefits" box  */
 .benefits-box{
     margin-bottom: 32px;
     color: #ffffff;
 }
 
-
+/* Sets font size and centering for 'benefits' headings  */
 .benefits h3 {
     margin-bottom: 10px;
     text-align: center;
 }
 
-
+/* Sets size and placement of 'benefits' images  */
 .benefits-image {
     display: block;
     margin: 10px auto;
     max-width: 150px;
 }
 
+/* Sets position and styling of 'footer'  */
 .footer {
     padding: 30px;
     clear: both;
@@ -128,6 +143,7 @@ p {
     text-align: center;
 }
 
+/* Sets font size of 'footer' heading  */
 .footer h2 {
     font-size: 20px;
 }
